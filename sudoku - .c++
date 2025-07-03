@@ -52,7 +52,7 @@ int main() {
     int board[9][9] = {0};
 
     while (running) {
-#ifdef _WIN32
+#ifdef _WIN32//para rodar em diferente sistemas
         system("cls");
 #else
         system("clear");
@@ -76,7 +76,7 @@ int main() {
                     cout << "Movimento inválido!" << endl;
                     cin.ignore();
                 }
-            } else {
+             } else {
                 cout << "Comando errado!" << endl;
                 cin.ignore();
             }
@@ -86,7 +86,7 @@ int main() {
             cout << "Comando desconhecido." << endl;
             cin.ignore();
         }
-    }
+      }
 
     return 0;
 }
