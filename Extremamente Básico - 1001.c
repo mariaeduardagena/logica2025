@@ -5,9 +5,9 @@ int main() {
   scanf("%d", &A);
   
   scanf("%d", &B);
-  
+ 
   X=A+B;
   printf("X = %i\n", X);
   
-    return 0;
+ return 0;
 }
